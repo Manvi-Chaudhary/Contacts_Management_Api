@@ -17,7 +17,7 @@ app.use(errorHandler);
 
 app.get("/",(req,res)=>{
     console.log(req.url);
-    res.json({message : "This is contacts api"});
+    res.json({developer : "Manvi Chaudhary",message : "This is contacts api"});
 })
 
 
